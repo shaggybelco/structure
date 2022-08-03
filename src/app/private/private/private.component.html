@@ -1,2 +1,12 @@
 <div class="logo" routerLink="/public/home">App</div>
-<router-outlet></router-outlet>
+<div class="main">
+    <div class="side">
+        <a routerLink="/dash/stats">dashboard</a>
+        <a routerLink="/dash/profile">Profile</a>
+        <a routerLink="/dash/setting">settings</a>
+    </div>
+    <div class="other">
+        <router-outlet></router-outlet>
+    </div>
+</div>
+
