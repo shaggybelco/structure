@@ -1,0 +1,30 @@
+#nav{
+    display: flex;
+    flex-direction: row;
+}
+
+#in{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    
+}
+
+ul{
+    text-decoration: none;
+    list-style: none;
+}
+
+a:hover{
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    background-color: crimson;
+}
+
+li{
+    text-decoration: none;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
