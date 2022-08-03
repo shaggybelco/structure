@@ -8,6 +8,7 @@ import { AuthModule } from './auth/auth.module';
 
 //component=============================================
 import { AppComponent } from './app.component';
+import { PrivateModule } from './private/private.module';
 
 //services=============================================
 
@@ -20,7 +21,8 @@ import { AppComponent } from './app.component';
     BrowserModule,
     AppRoutingModule,
     PublicModule,
-    AuthModule
+    AuthModule,
+    PrivateModule
   ],
   providers: [],
   bootstrap: [AppComponent]
